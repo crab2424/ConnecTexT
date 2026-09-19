@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "source": {
+    "text": "学校に制服は必要だろうか。制服には、生徒の服装による格差を見えにくくする働きがある。毎朝の服選びに悩む時間も減る。\n\nしかし、制服の価格は決して安くない。一式そろえるのに数万円かかる家庭も多い。つまり、格差を隠すための制服が、別の形で家計の負担を生んでいる。私は、制服を必須とせず選択制にすべきだと考える。",
+    "lang": "ja"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "span": {
+        "start": 0,
+        "end": 57
+      }
+    },
+    {
+      "id": "p2",
+      "span": {
+        "start": 59,
+        "end": 153
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n1",
+      "paragraph": "p1",
+      "span": {
+        "start": 0,
+        "end": 13
+      },
+      "summary": "学校に制服は必要か",
+      "role": "question",
+      "origin": "manual"
+    },
+    {
+      "id": "n2",
+      "paragraph": "p1",
+      "span": {
+        "start": 13,
+        "end": 42
+      },
+      "summary": "制服は服装の格差を見えにくくする",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n3",
+      "paragraph": "p1",
+      "span": {
+        "start": 42,
+        "end": 57
+      },
+      "summary": "服選びに悩む時間が減る",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n4",
+      "paragraph": "p2",
+      "span": {
+        "start": 59,
+        "end": 77
+      },
+      "summary": "制服の価格は安くない",
+      "role": "claim",
+      "origin": "manual"
+    },
+    {
+      "id": "n5",
+      "paragraph": "p2",
+      "span": {
+        "start": 77,
+        "end": 97
+      },
+      "summary": "一式で数万円かかる家庭も多い",
+      "role": "fact",
+      "origin": "manual"
+    },
+    {
+      "id": "n6",
+      "paragraph": "p2",
+      "span": {
+        "start": 97,
+        "end": 129
+      },
+      "summary": "制服が家計の負担を生んでいる",
+      "role": "claim",
+      "origin": "manual"
+    },
+    {
+      "id": "n7",
+      "paragraph": "p2",
+      "span": {
+        "start": 129,
+        "end": 153
+      },
+      "summary": "制服は選択制にすべき",
+      "role": "conclusion",
+      "origin": "manual"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n2",
+      "to": "n3",
+      "type": "addition",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e2",
+      "from": "n2",
+      "to": "n4",
+      "type": "contrast",
+      "evidence": "しかし",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e3",
+      "from": "n5",
+      "to": "n4",
+      "type": "example",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e4",
+      "from": "n4",
+      "to": "n6",
+      "type": "restate",
+      "evidence": "つまり",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e5",
+      "from": "n6",
+      "to": "n7",
+      "type": "cause",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    }
+  ],
+  "markers": [],
+  "meta": {
+    "title": "学校の制服は必要か",
+    "extractor": "manual",
+    "createdAt": "2026-09-19T00:00:00Z",
+    "edited": false
+  }
+}
