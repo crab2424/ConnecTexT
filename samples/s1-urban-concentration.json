@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "source": {
+    "text": "近年、都市部への人口集中が進んでいる。その結果、地方では働き手が不足し、産業の維持が難しくなっている。確かに、都市には雇用や教育の機会が多い。しかし、集中が続けば災害時の被害は拡大し、生活費も上がり続ける。例えば、東京では家賃が十年で二割以上上がった。したがって、地方への移住を促す政策が必要である。",
+    "lang": "ja"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "span": {
+        "start": 0,
+        "end": 150
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n1",
+      "paragraph": "p1",
+      "span": {
+        "start": 0,
+        "end": 19
+      },
+      "summary": "都市部への人口集中が進む",
+      "role": "fact",
+      "origin": "manual"
+    },
+    {
+      "id": "n2",
+      "paragraph": "p1",
+      "span": {
+        "start": 19,
+        "end": 51
+      },
+      "summary": "地方の働き手不足と産業維持の困難",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n3",
+      "paragraph": "p1",
+      "span": {
+        "start": 51,
+        "end": 71
+      },
+      "summary": "都市には機会が多い",
+      "role": "concession",
+      "origin": "manual"
+    },
+    {
+      "id": "n4",
+      "paragraph": "p1",
+      "span": {
+        "start": 71,
+        "end": 103
+      },
+      "summary": "集中が続くと被害拡大・生活費上昇",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n5",
+      "paragraph": "p1",
+      "span": {
+        "start": 103,
+        "end": 126
+      },
+      "summary": "東京の家賃が十年で二割上昇",
+      "role": "example",
+      "origin": "manual"
+    },
+    {
+      "id": "n6",
+      "paragraph": "p1",
+      "span": {
+        "start": 126,
+        "end": 150
+      },
+      "summary": "地方移住を促す政策が必要",
+      "role": "conclusion",
+      "origin": "manual"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n1",
+      "to": "n2",
+      "type": "cause",
+      "evidence": "その結果",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e2",
+      "from": "n3",
+      "to": "n4",
+      "type": "concession",
+      "evidence": "確かに／しかし",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e3",
+      "from": "n5",
+      "to": "n4",
+      "type": "example",
+      "evidence": "例えば",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e4",
+      "from": "n4",
+      "to": "n6",
+      "type": "cause",
+      "evidence": "したがって",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e5",
+      "from": "n2",
+      "to": "n6",
+      "type": "cause",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    }
+  ],
+  "markers": [],
+  "meta": {
+    "title": "都市部への人口集中",
+    "extractor": "manual",
+    "createdAt": "2026-09-19T00:00:00Z",
+    "edited": false
+  }
+}

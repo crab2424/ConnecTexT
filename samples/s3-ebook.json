@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "source": {
+    "text": "電子書籍は紙の本を置き換えるといわれてきた。確かに、電子書籍は場所を取らず、何冊でも持ち運べる。また、文字の大きさを変えられるため、目が悪い人にも読みやすい。\n\nしかし、紙の本の売上は下げ止まっている。もし読書が情報の取得だけを目的とするなら、電子書籍が有利だろう。だが、多くの読者は本を物として所有することにも価値を見いだしている。つまり、電子書籍と紙の本は、置き換えではなく使い分けの関係にある。",
+    "lang": "ja"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "span": {
+        "start": 0,
+        "end": 79
+      }
+    },
+    {
+      "id": "p2",
+      "span": {
+        "start": 81,
+        "end": 200
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n1",
+      "paragraph": "p1",
+      "span": {
+        "start": 0,
+        "end": 22
+      },
+      "summary": "電子書籍が紙を置き換えるとの見方",
+      "role": "rebuttal",
+      "origin": "manual"
+    },
+    {
+      "id": "n2",
+      "paragraph": "p1",
+      "span": {
+        "start": 22,
+        "end": 48
+      },
+      "summary": "電子書籍は場所を取らない",
+      "role": "concession",
+      "origin": "manual"
+    },
+    {
+      "id": "n3",
+      "paragraph": "p1",
+      "span": {
+        "start": 48,
+        "end": 79
+      },
+      "summary": "文字サイズを変えられ読みやすい",
+      "role": "concession",
+      "origin": "manual"
+    },
+    {
+      "id": "n4",
+      "paragraph": "p2",
+      "span": {
+        "start": 81,
+        "end": 101
+      },
+      "summary": "紙の本の売上は下げ止まっている",
+      "role": "claim",
+      "origin": "manual"
+    },
+    {
+      "id": "n5",
+      "paragraph": "p2",
+      "span": {
+        "start": 101,
+        "end": 133
+      },
+      "summary": "情報取得目的なら電子書籍が有利",
+      "role": "concession",
+      "origin": "manual"
+    },
+    {
+      "id": "n6",
+      "paragraph": "p2",
+      "span": {
+        "start": 133,
+        "end": 167
+      },
+      "summary": "読者は所有にも価値を見いだす",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n7",
+      "paragraph": "p2",
+      "span": {
+        "start": 167,
+        "end": 200
+      },
+      "summary": "電子書籍と紙は使い分けの関係",
+      "role": "conclusion",
+      "origin": "manual"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n2",
+      "to": "n3",
+      "type": "addition",
+      "evidence": "また",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e2",
+      "from": "n2",
+      "to": "n4",
+      "type": "concession",
+      "evidence": "確かに／しかし",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e3",
+      "from": "n5",
+      "to": "n6",
+      "type": "contrast",
+      "evidence": "だが",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e4",
+      "from": "n6",
+      "to": "n7",
+      "type": "restate",
+      "evidence": "つまり",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e5",
+      "from": "n4",
+      "to": "n7",
+      "type": "cause",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    }
+  ],
+  "markers": [],
+  "meta": {
+    "title": "電子書籍と紙の本",
+    "extractor": "manual",
+    "createdAt": "2026-09-19T00:00:00Z",
+    "edited": false
+  }
+}

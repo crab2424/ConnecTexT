@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "source": {
+    "text": "小学校からの英語教育を早期化すべきだという意見がある。早く始めるほど発音が身につきやすい、というのがその根拠だ。\n\nしかし、母語の力が十分でない段階で外国語を詰め込めば、どちらも中途半端になる恐れがある。なぜなら、抽象的な思考は母語を土台にして育つからだ。もちろん、英語に触れる機会そのものを増やすことに反対はしない。ただし、それは国語の時間を削って行うべきものではない。",
+    "lang": "ja"
+  },
+  "paragraphs": [
+    {
+      "id": "p1",
+      "span": {
+        "start": 0,
+        "end": 56
+      }
+    },
+    {
+      "id": "p2",
+      "span": {
+        "start": 58,
+        "end": 186
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "n1",
+      "paragraph": "p1",
+      "span": {
+        "start": 0,
+        "end": 27
+      },
+      "summary": "英語教育の早期化を求める意見",
+      "role": "rebuttal",
+      "origin": "manual"
+    },
+    {
+      "id": "n2",
+      "paragraph": "p1",
+      "span": {
+        "start": 27,
+        "end": 56
+      },
+      "summary": "早いほど発音が身につく",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n3",
+      "paragraph": "p2",
+      "span": {
+        "start": 58,
+        "end": 102
+      },
+      "summary": "母語が未熟なら共倒れの恐れ",
+      "role": "claim",
+      "origin": "manual"
+    },
+    {
+      "id": "n4",
+      "paragraph": "p2",
+      "span": {
+        "start": 102,
+        "end": 128
+      },
+      "summary": "抽象的思考は母語を土台に育つ",
+      "role": "ground",
+      "origin": "manual"
+    },
+    {
+      "id": "n5",
+      "paragraph": "p2",
+      "span": {
+        "start": 128,
+        "end": 159
+      },
+      "summary": "英語に触れる機会増には反対しない",
+      "role": "concession",
+      "origin": "manual"
+    },
+    {
+      "id": "n6",
+      "paragraph": "p2",
+      "span": {
+        "start": 159,
+        "end": 186
+      },
+      "summary": "国語の時間を削るべきではない",
+      "role": "conclusion",
+      "origin": "manual"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "from": "n2",
+      "to": "n1",
+      "type": "cause",
+      "evidence": "というのがその根拠だ",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e2",
+      "from": "n1",
+      "to": "n3",
+      "type": "contrast",
+      "evidence": "しかし",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e3",
+      "from": "n4",
+      "to": "n3",
+      "type": "cause",
+      "evidence": "なぜなら",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e4",
+      "from": "n5",
+      "to": "n6",
+      "type": "concession",
+      "evidence": "もちろん／ただし",
+      "explicit": true,
+      "confidence": 1.0,
+      "origin": "manual"
+    },
+    {
+      "id": "e5",
+      "from": "n3",
+      "to": "n6",
+      "type": "cause",
+      "evidence": null,
+      "explicit": false,
+      "confidence": 1.0,
+      "origin": "manual"
+    }
+  ],
+  "markers": [],
+  "meta": {
+    "title": "小学校英語の早期化",
+    "extractor": "manual",
+    "createdAt": "2026-09-19T00:00:00Z",
+    "edited": false
+  }
+}
